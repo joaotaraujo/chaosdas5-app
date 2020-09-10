@@ -46,10 +46,10 @@ Presentations
 <b>SBCM - SJDR - 2019</b>
 
 
-![GitHub Logo](/images/sbcm.jpeg)
+![GitHub Logo](/images/sbcm.jpg)
 
 
 <b>Mostra de vestígios - SJDR - 2018</b>
 
 
-![GitHub Logo](/images/sj.jpg)
+![GitHub Logo](/images/sj.jpeg)
