@@ -1,4 +1,5 @@
-# chaosdas5-site
+# O Chaos das 5 - web java application
+
 
 About
 -----
@@ -15,10 +16,12 @@ Screenshots
 ----------------------------------
 
 
-Welcome Screen and the Game Screen
+<b>Welcome Screen and the Game Screen</b>
+
 ![GitHub Logo](/images/login.png)
 
 
 
-Digital Instruments Musical
+<b>Digital Instruments Musical</b>
+
 ![GitHub Logo](/images/instrumentos.png)
