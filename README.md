@@ -31,6 +31,10 @@ Screenshots
 Presentations
 ----------------------------------
 
+<b>SBCM - SJDR - 2019</b>
+
+
+![GitHub Logo](/images/sbcm.jpg)
 <b>Sons de Silício - SP - 2019</b>
 
 
