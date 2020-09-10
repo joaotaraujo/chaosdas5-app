@@ -1,0 +1,136 @@
+* { padding: 0; margin: 0; }
+
+body, html{
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	background-color: black;
+	overflow: hidden;
+}
+
+p#start{
+	position: absolute;
+	width: 16em;
+	font-size: 300%;
+	font-weight: 400;
+	margin: 27%;
+	margin-left: 45%;
+	color: #fff;
+	opacity: 0;
+	z-index: 1;
+	animation: intro 2s ease-out;
+}
+
+/* intro animation */
+@keyframes intro {
+	0% { opacity: 1; }
+	90% { opacity: 1; }
+	100% { opacity: 0; }
+}
+
+/* the interesting 3D scrolling stuff */
+#titles{
+	position: absolute;
+	width: 20em;
+	height: 50em;
+	bottom: 0;
+	left: 50%;
+	margin-left: -9em;
+	font-size: 250%;
+	text-align: justify;
+	overflow: hidden;
+	transform-origin: 50% 100%;
+}
+
+#titles p{
+	text-align: justify;
+	margin: 0.8em 0;
+}
+
+#titles p.center{
+	text-align: center;
+	color: #fff;
+}
+
+#titles p.atividade{
+	text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+	text-align: left;
+	font-family: Helvetica;
+	font-weight: 400;
+	color: #000;
+}
+
+#titles p.autor{
+	text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+	margin: 50px;
+	text-align: left;
+	font-family: Helvetica;
+	font-weight: 400;
+	color: #fff;
+}
+
+#titles p.linha{
+	/*text-shadow: -1px 0 #777, 0 1px #777, 1px 0 #777, 0 -1px #777;*/
+	color: #728511;
+}
+
+#titlecontent{
+	position: absolute;
+	top: 100%;
+	animation: scroll 100s linear 2s; /*Controla o tempo do crédito e delay para iniciar.*/
+}
+
+/* animation */
+@keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -400%; }
+}
+
+/* class where name and photo are loaded */
+.set{
+	position: relative;
+}
+
+.nome{
+	position: relative;
+	float: left;
+	/*width: 100%;*/
+	height: 100px;
+	margin-left: 50px;
+	font-family: arial, verdana, sans-serif;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	color: #666;
+}
+
+.foto{
+	position: inherit;
+	float: left;
+	width: 100%;
+	height: 150px;
+}
+
+/* background video */
+.bg1_video{
+	position: relative;
+	float: left;
+	/* right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%; */
+	width: auto;
+	height: 350px;
+	z-index: 0;
+}
+
+.bg2_video{
+	position: relative;
+	float: right;
+	margin-top: 42%;
+	/* right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%; */
+	width: auto;
+	height: 350px;
+	z-index: 0;
+}

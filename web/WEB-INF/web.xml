@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1">
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+    <session-config>
+        <session-timeout>
+            60
+        </session-timeout>
+    </session-config>
+    
+    <servlet>
+        <servlet-name>ServletSalvaNome</servlet-name>
+        <servlet-class>servlet.ServletSalvaNome</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletSalvaNome</servlet-name>
+        <url-pattern>/ServletSalvaNome</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ServletSalvaFoto</servlet-name>
+        <servlet-class>servlet.ServletSalvaFoto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletSalvaFoto</servlet-name>
+        <url-pattern>/ServletSalvaFoto</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ServletCarregaGaleria</servlet-name>
+        <servlet-class>servlet.ServletCarregaGaleria</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletCarregaGaleria</servlet-name>
+        <url-pattern>/ServletCarregaGaleria</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>f</servlet-name>
+        <servlet-class>servlet.f</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>f</servlet-name>
+        <url-pattern>/f</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>c</servlet-name>
+        <servlet-class>servlet.c</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>c</servlet-name>
+        <url-pattern>/c</url-pattern>
+    </servlet-mapping>
+    
+</web-app>
