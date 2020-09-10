@@ -1,4 +1,4 @@
-# O Chaos das 5 - web java application
+# O Chaos das 5 - java/JSP web application
 
 
 About
